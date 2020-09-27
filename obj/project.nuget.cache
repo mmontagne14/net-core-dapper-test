@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "b4MqZg6wQwfj091HCmil201Al6JAeQx2Ai8n1NlvE01Bzv89b0WYNfR9t5r1SyYOFsp4pXkvpNby9fv63pzFFA==",
+  "success": true,
+  "projectFilePath": "D:\\Repositories\\Pruebas\\NetMySql\\BlogPostApi\\BlogPostApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Marcelo\\.nuget\\packages\\mysqlconnector\\1.0.1\\mysqlconnector.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
