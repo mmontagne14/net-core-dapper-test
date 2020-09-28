@@ -3,6 +3,8 @@ using System.Data;
 using System.Data.Common;
 using System.Threading.Tasks;
 using MySqlConnector;
+using Dapper;
+
 
 namespace BlogPostApi
 {

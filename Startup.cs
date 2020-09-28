@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using System.Data;
+using BlogPostApi.Repository;
 
 namespace BlogPostApi
 {
@@ -28,8 +30,10 @@ namespace BlogPostApi
             services.AddControllers();
 
             services.AddTransient<AppDb>(_ => new AppDb(Configuration["ConnectionStrings:DefaultConnection"]));
+            services.AddMvc();
+            services.AddScoped<IRepositoryBase, MySqlRepository>();
+            services.AddScoped<IRepositoryBase, SqlServerRepository>();
         }
-
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
@@ -44,10 +48,16 @@ namespace BlogPostApi
 
             app.UseAuthorization();
 
+            // app.UseEndpoints(endpoints =>
+            // {
+            // endpoints.MapControllers();
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllers();
+                endpoints.MapControllerRoute(
+                        name: "default",
+                        pattern: "{controller=Home}/{action=Index}/{id?}");
             });
+            // });
         }
     }
 }

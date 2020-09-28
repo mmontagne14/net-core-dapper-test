@@ -20,3 +20,11 @@ D:\Repositories\Pruebas\NetMySql\BlogPostApi\obj\Debug\netcoreapp3.1\staticwebas
 D:\Repositories\Pruebas\NetMySql\BlogPostApi\obj\Debug\netcoreapp3.1\BlogPostApi.dll
 D:\Repositories\Pruebas\NetMySql\BlogPostApi\obj\Debug\netcoreapp3.1\BlogPostApi.pdb
 D:\Repositories\Pruebas\NetMySql\BlogPostApi\obj\Debug\netcoreapp3.1\BlogPostApi.genruntimeconfig.cache
+D:\Repositories\Pruebas\NetMySql\BlogPostApi\bin\Debug\netcoreapp3.1\Dapper.dll
+D:\Repositories\Pruebas\NetMySql\BlogPostApi\bin\Debug\netcoreapp3.1\Dapper.Contrib.dll
+D:\Repositories\Pruebas\NetMySql\BlogPostApi\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Repositories\Pruebas\NetMySql\BlogPostApi\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Repositories\Pruebas\NetMySql\BlogPostApi\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Repositories\Pruebas\NetMySql\BlogPostApi\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Repositories\Pruebas\NetMySql\BlogPostApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Repositories\Pruebas\NetMySql\BlogPostApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
